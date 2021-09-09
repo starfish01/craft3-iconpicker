@@ -32,7 +32,7 @@ You can easily use ionicons or font awesome icons
         
 4. Add the fonts you want to the following directory 
         
-        /vendor/dolphiq/iconpicker/src/resources-shared/fonts
+        /config/iconfonts/fonts
                
 5. The `Iconpicker Field` type will be available when adding a new field - Settings > Fields > Add new field
 

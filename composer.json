@@ -1,7 +1,7 @@
 {
-  "name": "dolphiq/iconpicker",
+  "name": "starfish01/iconpicker",
   "description": "Craft Iconpicker field type that offers end-users an easy way to pick an icon/symbol from a .woff or .ttf font file.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "keywords": [
     "craft",
     "cms",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "plugins\\dolphiq\\iconpicker\\": "src/"
+      "plugins\\starfish01\\iconpicker\\": "src/"
     }
   },
   "authors": [
@@ -39,7 +39,7 @@
     "developerUrl": "https://dolphiq.nl/",
     "hasCpSettings": false,
     "hasCpSection": false,
-    "documentationUrl": "https://github.com/Dolphiq/craft3-iconpicker/blob/master/README.md",
-    "changelogUrl": "https://raw.githubusercontent.com/Dolphiq/craft3-iconpicker/master/CHANGELOG.md"
+    "documentationUrl": "https://github.com/starfish01/craft3-iconpicker/blob/master/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/starfish01/craft3-iconpicker/master/CHANGELOG.md"
   }
 }

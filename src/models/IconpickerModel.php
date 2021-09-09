@@ -15,7 +15,7 @@
  * @property $iconSpan string
  */
 
-namespace plugins\dolphiq\iconpicker\models;
+namespace plugins\starfish01\iconpicker\models;
 
 use Craft;
 use craft\base\Model;

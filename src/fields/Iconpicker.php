@@ -7,7 +7,7 @@
  *
  * This field will offer the user a choice between various icons in the selected font, and generates the needed css
  */
-namespace plugins\dolphiq\iconpicker\fields;
+namespace plugins\starfish01\iconpicker\fields;
 
 use Craft;
 use craft\base\ElementInterface;
@@ -15,8 +15,8 @@ use craft\base\Field;
 use craft\base\PreviewableFieldInterface;
 use craft\helpers\FileHelper;
 use FontLib\Font;
-use plugins\dolphiq\iconpicker\assets\sharedAsset;
-use plugins\dolphiq\iconpicker\models\IconpickerModel;
+use plugins\starfish01\iconpicker\assets\sharedAsset;
+use plugins\starfish01\iconpicker\models\IconpickerModel;
 use yii\db\Schema;
 use yii\helpers\ArrayHelper;
 
@@ -28,7 +28,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
     /**
      * @var string The directory where the fonts are
      */
-    const FONT_DIR = '@vendor/dolphiq/iconpicker/src/resources-shared/fonts/';
+        const FONT_DIR = '@config/iconfonts/fonts/';
 
     /**
      * @var array All extentions that are allowed to be imported as a font
@@ -123,10 +123,10 @@ class Iconpicker extends Field implements PreviewableFieldInterface
     public function getInputHtml($value, ElementInterface $element = null): string
     {
         // Load the assetbundle
-        Craft::$app->view->registerAssetBundle(\plugins\dolphiq\iconpicker\assets\appAsset::class);
+        Craft::$app->view->registerAssetBundle(\plugins\starfish01\iconpicker\assets\appAsset::class);
 
         // Display the field
-        return Craft::$app->getView()->render('@vendor/dolphiq/iconpicker/src/views/main/_field', [
+        return Craft::$app->getView()->render('@vendor/starfish01/iconpicker/src/views/main/_field', [
             'name' => $this->handle,
             'value' => $value,
             'field' => $this,

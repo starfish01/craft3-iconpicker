@@ -6,14 +6,14 @@
  * Time: 13:17
  *
  * @var string $name
- * @var \plugins\dolphiq\iconpicker\models\IconpickerModel $value
- * @var \plugins\dolphiq\iconpicker\fields\Iconpicker $field
+ * @var \plugins\starfish01\iconpicker\models\IconpickerModel $value
+ * @var \plugins\starfish01\iconpicker\fields\Iconpicker $field
  * @var array $icons
  */
 
 $field->getFontCss();
 
-if (is_array($icons) && count($icons) > 0) {
+if (count($icons) > 0) {
     ?>
 
 

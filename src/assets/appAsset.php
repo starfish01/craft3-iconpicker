@@ -7,7 +7,7 @@
  *
  * This asset will publish all css and js needed voor the backend application
  */
-namespace plugins\dolphiq\iconpicker\assets;
+namespace plugins\starfish01\iconpicker\assets;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -17,7 +17,7 @@ class appAsset extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = '@vendor/dolphiq/iconpicker/src/resources-app';
+        $this->sourcePath = '@vendor/starfish01/iconpicker/src/resources-app';
 
         // define the dependencies
         $this->depends = [
