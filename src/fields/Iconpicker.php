@@ -28,7 +28,7 @@ class Iconpicker extends Field implements PreviewableFieldInterface
     /**
      * @var string The directory where the fonts are
      */
-        const FONT_DIR = '@config/iconfonts/fonts/';
+        const FONT_DIR = '@storage/iconfonts/fonts/';
 
     /**
      * @var array All extentions that are allowed to be imported as a font
